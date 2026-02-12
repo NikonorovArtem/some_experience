@@ -1,0 +1,91 @@
+@import url('fonts/main_font.css');
+
+* {
+    /* Сбрасывание стандартных стилей и добавление шрифтов */
+    margin: 0;
+    font-family: 'StratosSkyeng', sans-serif;
+}
+
+.content {
+    /* Эти два свойства нужны чтобы фон подстраивался на весь экран */
+    background-size: cover;
+    min-height: 100vh;
+    /* Пиши свой код ниже */
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    padding-left: calc(50% - 500px);
+    padding-right: calc(50% - 500px);
+}
+
+/* Класс для расположения элементов в 1 ряд */
+.in-one-line {
+    display: flex;
+    /* Отступ между элементами */
+    gap: 32px;
+    
+}
+
+.title {
+    padding-top: 118px;
+    padding-bottom: 18px;
+}
+
+.meme-img {
+    width: 45%;
+    border-radius: 12px;
+    margin: 16px 0;
+}
+
+.list-title {
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+.listEl {
+    padding-bottom: 18px;
+    font-size: 22px;
+}
+
+.main-text {
+    font-size: 24px;
+    padding-bottom: 18px;
+}
+
+.main-img {
+    width: 45%;
+    border-radius: 12px;
+    padding-bottom: 18px;
+}
+
+.next-page {
+    display: block;
+    background-color: #894AFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 38px;
+    padding: 11px 30px;
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+
+.prev-page {
+    display: block;
+    background-color: #894AFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 38px;
+    padding: 11px 30px;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+
+.main-name {
+    font-size: 24px;
+    padding-bottom: 12px;
+}
